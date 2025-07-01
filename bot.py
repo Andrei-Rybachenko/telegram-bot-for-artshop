@@ -60,7 +60,7 @@ async def about_artist(message: Message):
 
 @router.message(F.text == "📱 Контакты")
 async def show_contacts(message: Message):
-    await message.answer("Связаться со мной можно через Telegram: @katyalesun\nИли по e-mail: example@mail.com")
+    await message.answer("Связаться со мной можно через Telegram: @katyalesun\nИли по e-mail: katyalesunstudio@gmail.com")
 
 
 # @router.message(F.text == "Каталог")
