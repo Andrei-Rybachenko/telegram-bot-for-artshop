@@ -19,8 +19,6 @@ from keyboards.admin import get_admin_item_keyboard, get_edit_field_keyboard
 from config import API_TOKEN, ADMIN_IDS
 
 
-# ADMIN_IDS = [591400971]
-# API_TOKEN = "8043531607:AAGCmZjhz7n-L2sq1zvGxMAw5vF9S2qJsBo"
 bot = Bot(token=API_TOKEN)
 
 router = Router()
